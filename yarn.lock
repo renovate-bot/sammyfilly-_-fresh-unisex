@@ -767,45 +767,10 @@
     awilix "^8.0.0"
     resolve-cwd "^3.0.0"
 
-"@medusajs/modules-sdk@^1.9.2":
-  version "1.9.2"
-  resolved "https://registry.yarnpkg.com/@medusajs/modules-sdk/-/modules-sdk-1.9.2.tgz#a8f1c7d295cacff8e0f93a7807b0accc9575a1ec"
-  integrity sha512-SH48eElOtv61azf+Ag5yiaB/3u4OIrO/V8QQTl2kvHMoM8dZ8iqmog5nkZFHLFR9afqeV1WYxMblLVHSBmIyiQ==
-  dependencies:
-    "@medusajs/orchestration" "^0.2.0"
-    "@medusajs/types" "^1.10.2"
-    "@medusajs/utils" "^1.9.6"
-    awilix "^8.0.0"
-    resolve-cwd "^3.0.0"
-
-"@medusajs/orchestration@^0.2.0":
-  version "0.2.0"
-  resolved "https://registry.yarnpkg.com/@medusajs/orchestration/-/orchestration-0.2.0.tgz#fdfc48ef223f95cda775507ea8c8f5596ed1d31e"
-  integrity sha512-HXPbtT4pznhbVkVL31i0cFV+B4NNcSSfkn3uNw5IjZ2Ze2nwAdB79liK8Lp6WhHR65t4kfYAwihNgRLvDv45qQ==
-  dependencies:
-    "@medusajs/utils" "^1.9.6"
-    graphql "^16.6.0"
-
-"@medusajs/product@^0.1.7":
-  version "0.1.7"
-  resolved "https://registry.yarnpkg.com/@medusajs/product/-/product-0.1.7.tgz#cbdc7479db131e824d8e729d7e76859b5b0fdbb2"
-  integrity sha512-RU9boYXfEmsRjNiJbTBvHQ+eE58Sth+ML+k22tQl5eA0eJrLVjDlOoqJiJMj/wGJUxZcE9UFpjG57f5ISKLadQ==
-  dependencies:
-    "@medusajs/modules-sdk" "^1.9.2"
-    "@medusajs/types" "^1.10.2"
-    "@medusajs/utils" "^1.9.7"
-    "@mikro-orm/core" "5.7.12"
-    "@mikro-orm/migrations" "5.7.12"
-    "@mikro-orm/postgresql" "5.7.12"
-    awilix "^8.0.0"
-    dotenv "^16.1.4"
-    knex "2.4.2"
-    lodash "^4.17.21"
-
-"@medusajs/types@^1.10.2":
-  version "1.10.2"
-  resolved "https://registry.yarnpkg.com/@medusajs/types/-/types-1.10.2.tgz#2f9e08fe0846e8323f89f62044d9a38e96747cbe"
-  integrity sha512-p92EBgpr4qQsbiL1ER9awBdmZKweAZAK3Qv3sf38lhySrAhWGysm5CQta97M2dX+AosMKwyzoxjlM38m6Yxm2g==
+"@medusajs/product@^2.0.0":
+  version "2.8.3"
+  resolved "https://registry.yarnpkg.com/@medusajs/product/-/product-2.8.3.tgz#60238c95a43c9947d6887c1ac15b301766ca78bb"
+  integrity sha512-flkmFz4bjM3tg6EhsrJzTwiIL8N2eesJoQd5E31OuVtVLtQnMmskyZ8yPXSHXetyLMdTTQ1eJTeS3x0ySFlGxw==
 
 "@medusajs/types@^1.11.1":
   version "1.11.1"
@@ -837,22 +802,6 @@
   dependencies:
     awilix "^8.0.1"
     glob "^7.1.6"
-    ulid "^2.3.0"
-
-"@medusajs/utils@^1.9.6":
-  version "1.9.6"
-  resolved "https://registry.yarnpkg.com/@medusajs/utils/-/utils-1.9.6.tgz#8e20e46d73c041b04cdfd76a4a98a54147bd3a46"
-  integrity sha512-tgENGCEfsydEjwB2js34LPHvyqq0Fh6gS+rKc/k2Hi8KnWlBii3nqMEVoDiZXW2yFhQsFdyeZIrZ4fSo1kc77g==
-  dependencies:
-    awilix "^8.0.1"
-    ulid "^2.3.0"
-
-"@medusajs/utils@^1.9.7":
-  version "1.9.7"
-  resolved "https://registry.yarnpkg.com/@medusajs/utils/-/utils-1.9.7.tgz#0a4593264df30b8072192da1835c902a0f6a24c0"
-  integrity sha512-vhHWDhQc3CQelunrSTO6boiADCVs85rszTLvxDI8nrsI88NtWFe7Vjqj3K4AKjCkMrFB+jASDMZ6oo6DkMDBvw==
-  dependencies:
-    awilix "^8.0.1"
     ulid "^2.3.0"
 
 "@meilisearch/instant-meilisearch@^0.13.0":
@@ -2886,11 +2835,6 @@ dotenv@16.1.4:
   resolved "https://registry.yarnpkg.com/dotenv/-/dotenv-16.1.4.tgz#67ac1a10cd9c25f5ba604e4e08bc77c0ebe0ca8c"
   integrity sha512-m55RtE8AsPeJBpOIFKihEmqUcoVncQIwo7x9U8ZwLEZw9ZpXboz2c+rvog+jUaJvVrZ5kBOeYQBX5+8Aa/OZQw==
 
-dotenv@^16.1.4:
-  version "16.3.1"
-  resolved "https://registry.yarnpkg.com/dotenv/-/dotenv-16.3.1.tgz#369034de7d7e5b120972693352a3bf112172cc3e"
-  integrity sha512-IPzF4w4/Rd94bA9imS68tZBaYyBWSCE47V1RGuMrB94iyTOIEwRmVL2x/4An+6mETpLrKJ5hQkB8W4kFAadeIQ==
-
 ecc-jsbn@~0.1.1:
   version "0.1.2"
   resolved "https://registry.yarnpkg.com/ecc-jsbn/-/ecc-jsbn-0.1.2.tgz#3a83a904e54353287874c564b7549386849a98c9"
@@ -3945,11 +3889,6 @@ graceful-fs@^4.1.2, graceful-fs@^4.1.6, graceful-fs@^4.2.0, graceful-fs@^4.2.4, 
   version "4.2.11"
   resolved "https://registry.yarnpkg.com/graceful-fs/-/graceful-fs-4.2.11.tgz#4183e4e8bf08bb6e05bbb2f7d2e0c8f712ca40e3"
   integrity sha512-RbJ5/jmFcNNCcDV5o9eTnBLJ/HszWV0P73bc+Ff4nS/rJj+YaS6IGyiOL0VoBYX+l1Wrl3k63h/KrH+nhJ0XvQ==
-
-graphql@^16.6.0:
-  version "16.8.0"
-  resolved "https://registry.yarnpkg.com/graphql/-/graphql-16.8.0.tgz#374478b7f27b2dc6153c8f42c1b80157f79d79d4"
-  integrity sha512-0oKGaR+y3qcS5mCu1vb7KG+a89vjn06C7Ihq/dDl3jA+A8B3TKomvi3CiEcVLJQGalbu8F52LxkOym7U5sSfbg==
 
 has-bigints@^1.0.1, has-bigints@^1.0.2:
   version "1.0.2"
