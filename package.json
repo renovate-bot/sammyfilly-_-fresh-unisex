@@ -20,7 +20,7 @@
     "@types/react": "17.0.67"
   },
   "dependencies": {
-    "@headlessui/react": "^1.6.1",
+    "@headlessui/react": "^2.0.0",
     "@hookform/error-message": "^2.0.0",
     "@medusajs/medusa-js": "^6.0.3",
     "@medusajs/product": "^0.1.7",
